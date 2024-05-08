@@ -1,7 +1,7 @@
 import React, { createContext, useState } from 'react';
 import image from '../scenes/layout/images/icon.png'
 
-export const loginStatus = createContext();
+export const loginStatus = createContext({});
 
 export const GlobalContext = ({ children }) => {
     const [isLoggedIn, setIsLoggedIn] = useState(true);
