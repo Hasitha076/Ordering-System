@@ -3,7 +3,7 @@ import { createApi, fetchBaseQuery } from '@reduxjs/toolkit/query/react'
 const dataAPI = createApi({
     reducerPath: 'data-api-reducer',
     tagTypes: ["customers", "productsCount", "customersCount", "countOrders", "totalIncome", "order", "team", "allTags", "product", "user", "status"],
-    baseQuery: fetchBaseQuery({ baseUrl: 'http://localhost:5000/api/v1/', credentials: 'include' }),
+    baseQuery: fetchBaseQuery({ baseUrl: process.env.REACT_APP_BASE_URL, credentials: 'include' }),
     endpoints: builer => ({
 
         // user
