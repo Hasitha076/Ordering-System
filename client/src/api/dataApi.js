@@ -3,7 +3,7 @@ import { createApi, fetchBaseQuery } from '@reduxjs/toolkit/query/react'
 const dataAPI = createApi({
     reducerPath: 'data-api-reducer',
     tagTypes: ["customers", "productsCount", "customersCount", "countOrders", "totalIncome", "order", "team", "allTags", "product", "user", "status"],
-    baseQuery: fetchBaseQuery({ baseUrl: 'https://ordering-system-br9g.onrender.com/' }),
+    baseQuery: fetchBaseQuery({ baseUrl: 'https://ordering-system-br9g.onrender.com/api/v1/' }),
     endpoints: builer => ({
 
         // user
