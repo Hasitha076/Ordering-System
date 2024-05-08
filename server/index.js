@@ -15,7 +15,7 @@ const PORT = process.env.PORT || 4000
 const app = express()
 app.use(express.json())
 app.use(cors({
-    origin: process.env.URL,
+    origin: 'https://ordering-system-1.onrender.com',
     credentials: true
 }));
 app.use(cookieParser());
