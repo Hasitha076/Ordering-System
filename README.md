@@ -1,4 +1,4 @@
-# 📈 Fullstack-admin Dashboard
+# 📈 Full-stack Ordering Management System Admin Dashboard
 
 Build a MERN-Stack ordering management system Admin Dashboard | Redux Toolkit Query, Backend Focus, Deployment, Data Modeling
 
